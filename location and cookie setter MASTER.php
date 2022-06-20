@@ -38,7 +38,7 @@ if($ip_info && $ip_info->geoplugin_countryName != null){
 $city=$ip_info->geoplugin_city;
   $name = $city;
   $value = $ip_address;
-  setcookie($name, $value, time() + (86400 * 80), '/','finkosuppliesagencies.com', 1);
+  setcookie($name, $value, time() + (86400 * 80), '/','', 1);
   // 86400 = 1 day
   
   
